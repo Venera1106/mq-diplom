@@ -16,7 +16,6 @@
    font-weight: 400;
    font-style: normal;
 }
-.
 
 .header {
    background-image: url("../images/banner-bg.jpg");
@@ -120,7 +119,7 @@
    display: flex;
    margin-bottom: 62px;
    justify-content: space-between;
-   }
+}
 
 .images-trend {
    width: 24%;
@@ -133,8 +132,6 @@
 .post-trend {
    position: relative;
    background-color: black;
-
-   
 }
 
 .post-trend::after {
