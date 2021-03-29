@@ -1,0 +1,15 @@
+@media (min-width: 641px) and (max-width: 1199px) {
+   .header {
+      background-image: url("../images/banner-bg-tablet.jpg");
+       }
+       .header-container {
+         display: flex;
+         padding-top: 45px;
+         width: 70.2%;
+         justify-content: space-between;
+         align-items: center;
+         margin-left: auto;
+         margin-right: auto;
+         margin-bottom: 110px;
+      }
+} 
