@@ -1,3 +1,21 @@
+@media (min-width: 1200px) {
+   .menu__button2 {
+      display: none;
+   }
+}
+
+@media (max-width: 1199px) {
+   .trends1 {
+      flex-wrap: wrap;
+   }
+   .main-post {
+      flex-wrap: wrap;
+   }
+   .container-shop {
+      flex-wrap: wrap;
+   }
+}
+
 @media (min-width: 641px) and (max-width: 1199px) {
    .header {
       background-image: url("../images/banner-bg-tablet.jpg");
@@ -8,11 +26,18 @@
    .header-container {
       width: 91%;
    }
+   .header-logo {
+      width: 15.8rem;
+   }
    .header-title {
       width: 79%;
+      font-size: 4rem;
    }
-   .trends1 {
-      flex-wrap: wrap;
+   .title-trend1 {
+      font-size: 1.8rem;
+   }
+   .content1 {
+      font-size: 1.7rem;
    }
    .trend {
       width: 49.6%;
@@ -20,22 +45,22 @@
    .trend:nth-last-child(-n+2) {
       margin-top: 4px;
    }
-
    .content {
       width: 92%;
    }
-   .main-post {
-      flex-wrap: wrap;
-        }
    .main-posts {
-      
       width: 56%;
       margin-right: 5%;
    }
-   .container-shop {
-      flex-wrap: wrap;
+   .main-post-title-link {
+      font-size: 1.4rem;
    }
-
+   .title-shop {
+      font-size: 1.8rem;
+   }
+   .title--shop {
+      font-size: 1.7rem;
+   }
    .section-shop {
       width: 92%;
    }
@@ -47,36 +72,98 @@
    }
 }
 
-@media (min-width: 1200px) {
-   .menu__button2 {
-      display: none;
-   }
-}
-
 @media (max-width: 640px) {
+   .header {
+      background-image: url("../images/banner-mobile.jpg");
+   }
+   .header-container {
+      flex-direction: column-reverse;
+      width: 83%;
+      padding-top: 35px;
+   }
+   .header-logo {
+      width: 26.8rem;
+      padding-top: 173px;
+   }
+   .header-title {
+      font-size: 2.6rem;
+      line-height: 3.6rem;
+      width: 78%;
+      padding-bottom: 220px;
+   }
    .menu-list {
       display: none;
    }
-   
-   .trends1 {
-      flex-wrap: wrap;
+   .menu {
+      display: flex;
+      align-self: flex-end;
+   }
+   .title-trend1 {
+      font-size: 1.6rem;
+   }
+   .content1 {
+      font-size: 1.6rem;
    }
    .trend {
       width: 100%;
    }
    .content {
       flex-wrap: wrap;
+      width: 92%;
    }
-   .main-post {
-      flex-wrap: wrap;
+   .main-posts {
+      width: 100%;
+      margin: 0;
    }
-   .container-shop {
-      flex-wrap: wrap;
+   .main-post-title-link {
+      font-size: 1.6rem;
+   }
+   .main-post-basic-text {
+      font-size: 1.4rem;
+   }
+   .asid-posts {
+      width: 100%;
+   }
+   .mailing {
+      font-size: 1.6rem;
+   }
+   .tags {
+      font-size: 1.6rem;
+   }
+   .topics {
+      font-size: 1.6rem;
+   }
+   .section-shop {
+      width: 92%;
+   }
+   .content-shop {
+      padding: 51px 25px 25px 19px;
    }
    .post-shop {
       width: 100%;
    }
+   .title-shop {
+      font-size: 1.6rem;
+   }
+   .field {
+      width: 85%;
+   }
+   .button {
+      width: 15%;
+   }
+   .field1 {
+      width: 100%;
+   }
+   .button1 {
+      width: 100%;
+   }
+   .title--shop {
+      font-size: 1.7rem;
+   }
    .trend:nth-last-child(-n+3) {
       margin-top: 4px;
+   }
+   .footer {
+      width: 92%;
    }
 }
