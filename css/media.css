@@ -72,6 +72,22 @@
    }
 }
 
+@media (min-width: 641px) and (max-width: 1199px) and (orientation: landscape) {
+   .trend {
+      width: 24.8%;
+   }
+}
+
+@media (max-width: 640px) and (orientation: landscape) {
+   .trend {
+      width: 49.6%;
+   }
+   .trends1 {
+      display: flex;
+      flex-wrap: wrap;
+   }
+}
+
 @media (max-width: 640px) {
    .header {
       background-image: url("../images/banner-mobile.jpg");
@@ -106,6 +122,9 @@
    }
    .trend {
       width: 100%;
+   }
+   .content-trend1 {
+      padding: 33px 29px 29px 23px;
    }
    .content {
       flex-wrap: wrap;
@@ -145,11 +164,11 @@
    .title-shop {
       font-size: 1.6rem;
    }
-   .field {
-      width: 85%;
+   .label-field {
+      width: 100%;
    }
-   .button {
-      width: 15%;
+   .field {
+      width: 100%;
    }
    .field1 {
       width: 100%;
