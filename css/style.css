@@ -121,15 +121,7 @@ html {
    bottom: 0;
 }
 
-.menu__button2:before, .menu__button2:after {
-   content: "";
-   width: 100%;
-   height: 20%;
-   border-radius: 5px;
-   background-color: #ffffff;
-   position: absolute;
-   left: 0;
-}
+
 
 .menu__button2-label {
    width: 100%;
@@ -183,6 +175,7 @@ html {
    margin: auto;
    left: 0;
    right: 0;
+   top: 75px;
 }
 
 .trends1 {
@@ -230,7 +223,7 @@ html {
    background-color: #000000;
    position: relative;
    z-index: 1;
-   padding: 131px 23px 16px 20px;
+   min-height: 323px;
   
 }
 
@@ -239,6 +232,11 @@ html {
    padding: 35px 30px 32px 35px;
    display: flex;
    flex-direction: column;
+   overflow: hidden;
+   position: absolute;
+    bottom: 18px;
+    right: 22px;
+    left: 22px;
 }
 
 .content1 {
@@ -733,7 +731,7 @@ html {
    margin: auto;
    left: 0;
    right: 0;
-   top: 35px;
+   top: 29px;
 }
 
 .title--shop {
@@ -834,19 +832,23 @@ html {
    left: 0;
    right: 0;
    bottom: 0;
-   display: none;
+   displa: none;
    z-index: 4;
    justify-content: center;
    align-items: center;
 }
 
 .popup-content {
-   width: 389px;
-   height: 589px;
+   width: 23%;
+   min-width: 331px;
+   max-width: 389px;
+   
    padding: 0 30px;
    background-color: #ffffff;
    z-index: 5;
    position: relative;
+   padding-top: 49px;
+   padding-bottom: 56px;
 }
 .form-x {
    position: absolute;
@@ -975,8 +977,8 @@ height: 1px;
    text-transform: uppercase;
    position: relative;
    text-align: center;
-   padding-top: 15%;
-   padding-bottom: 11%;
+  
+   margin-bottom: 11%;
 }
 
 .title-popup::after {
@@ -990,6 +992,6 @@ height: 1px;
    margin: auto;
    left: 0;
    right: 0;
-   top: 80px;
+   top: 30px;
 }
 
